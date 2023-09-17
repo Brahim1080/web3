@@ -1,6 +1,6 @@
-import Header from "./Header";
-import Content from "./content";
-import Total from "./Total";
+import Header from "../Header/Header";
+import Content from "../Content/Content";
+import Total from "../Total/Total";
 
 const App = () => {
   const course = "Half Stack application development";

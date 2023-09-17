@@ -1,4 +1,4 @@
-import Part from "./Part";
+import Part from "../Part/Part";
 
 const Content = ({
   part1,
