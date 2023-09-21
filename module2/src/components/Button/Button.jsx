@@ -1,3 +1,3 @@
-const Button = ({ handleClick, text }) => <button onClick={handleClick}>{text}</button>
+const Button = ({ changeCount , delta , text }) => <button onClick={()=>changeCount(delta)}>{text}</button>
 
 export default Button
