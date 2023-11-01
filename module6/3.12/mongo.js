@@ -5,7 +5,7 @@ const password = process.env.DB_PASSWORD;
 
 const user = process.env.DB_USER;
 
-const url = `mongodb+srv://${user}:${password}@cluster0.igofgx6.mongodb.net/noteApp?retryWrites=true&w=majority`;
+const url = `mongodb+srv://${user}:${password}@cluster0.igofgx6.mongodb.net/peopleApp?retryWrites=true&w=majority`;
 
 mongoose.set("strictQuery", false);
 mongoose.connect(url);
